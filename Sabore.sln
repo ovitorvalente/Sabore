@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabore.BLL", "Sabore.BLL\Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabore.DAL", "Sabore.DAL\Sabore.DAL.csproj", "{0BF7C032-6662-420C-9AA8-99C9B0B06FB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabore.Models", "Sabore.Models\Sabore.Models.csproj", "{287694D3-FCC4-4F3C-A88C-33A1F83FD014}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{0BF7C032-6662-420C-9AA8-99C9B0B06FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BF7C032-6662-420C-9AA8-99C9B0B06FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BF7C032-6662-420C-9AA8-99C9B0B06FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287694D3-FCC4-4F3C-A88C-33A1F83FD014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287694D3-FCC4-4F3C-A88C-33A1F83FD014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287694D3-FCC4-4F3C-A88C-33A1F83FD014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287694D3-FCC4-4F3C-A88C-33A1F83FD014}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
