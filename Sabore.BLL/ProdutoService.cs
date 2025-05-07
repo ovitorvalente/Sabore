@@ -1,22 +1,27 @@
-﻿using Sabore.Models;
+﻿using Sabore.DAL.Repositories;
+using Sabore.Models;
 
 namespace Sabore.BLL
 {
     public class ProdutoService
     {
+        private readonly ProdutoRepository _produtoRepository;
+
         public ProdutoService()
         {
-
+            _produtoRepository = new ProdutoRepository();
         }
 
         public bool CadastrarProduto(Produto produto)
         {
-            return false;
+            var result = _produtoRepository.CadastrarProduto(produto);
+            return result;
         }
 
         public List<Produto> ListarProdutos()
         {
-            return new List<Produto>();
+            var ListaProdutos = _produtoRepository.ListarProdutos();
+            return ListaProdutos;
         }
     }
 }
