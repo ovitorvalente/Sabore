@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Sabore.DAL\Sabore.DAL.csproj" />
     <ProjectReference Include="..\Sabore.Models\Sabore.Models.csproj" />
   </ItemGroup>
 
