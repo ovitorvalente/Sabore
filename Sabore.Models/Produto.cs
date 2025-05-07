@@ -1,6 +1,6 @@
 ﻿namespace Sabore.Models
 {
-    public class Produtos
+    public class Produto
     {
         public Guid Guid { get; set; }
         public int Id { get; set; }
